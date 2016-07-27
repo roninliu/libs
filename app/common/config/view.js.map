@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "sources": [
+        "../../../src/common/config/view.js"
+    ],
+    "names": [],
+    "mappings": "AAAA;AACA;;;;;kBAGe;AACd,OAAM,KADQ;AAEd,eAAc,WAFA;AAGd,WAAU,OAHI;AAId,YAAW,GAJG;AAKd,YAAW,MAAM,SAAN,GAAkB,OALf;AAMd,UAAS;AACR,OAAK;AADG;AANK,C",
+    "file": "../../../src/common/config/view.js",
+    "sourcesContent": [
+        "'use strict';\n/**\n * template config\n */\nexport default {\n\ttype: 'ejs',\n\tcontent_type: 'text/html',\n\tfile_ext: '.html',\n\tfile_depr: '/',\n\troot_path: think.ROOT_PATH + '/view',\n\tadapter: {\n\t\tejs: {}\n\t}\n};"
+    ]
+}
