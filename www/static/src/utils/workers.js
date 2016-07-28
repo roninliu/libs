@@ -14,7 +14,7 @@
 		module.exports = factory();
 	} else {
 		// Browser globals (root is window)
-		root.Workers = factory(root);
+		root.HZWorkers = factory(root);
 	};
 }(this, function(root) {
 	/**
