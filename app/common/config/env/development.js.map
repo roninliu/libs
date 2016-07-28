@@ -1,12 +1,12 @@
 {
     "version": 3,
     "sources": [
-        "../../../../src/common/config/env/development.js"
+        "..\\..\\..\\..\\src\\common\\config\\env\\development.js"
     ],
     "names": [],
     "mappings": "AAAA;;;kBAEe,E",
-    "file": "../../../../src/common/config/env/development.js",
+    "file": "..\\..\\..\\..\\src\\common\\config\\env\\development.js",
     "sourcesContent": [
-        "'use strict';\n\nexport default {\n  \n};"
+        "'use strict';\r\n\r\nexport default {\r\n  \r\n};"
     ]
 }

@@ -1,12 +1,12 @@
 {
     "version": 3,
     "sources": [
-        "../../../src/common/config/hook.js"
+        "..\\..\\..\\src\\common\\config\\hook.js"
     ],
     "names": [],
     "mappings": "AAAA;;AAEA;;;;;;kBAIe,E",
-    "file": "../../../src/common/config/hook.js",
+    "file": "..\\..\\..\\src\\common\\config\\hook.js",
     "sourcesContent": [
-        "'use strict';\n\n/**\n * hook config\n * https://thinkjs.org/doc/middleware.html#toc-df6\n */\nexport default {\n\n}"
+        "'use strict';\r\n\r\n/**\r\n * hook config\r\n * https://thinkjs.org/doc/middleware.html#toc-df6\r\n */\r\nexport default {\r\n\r\n}"
     ]
 }

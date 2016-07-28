@@ -1,12 +1,12 @@
 {
     "version": 3,
     "sources": [
-        "../../../../src/common/config/locale/en.js"
+        "..\\..\\..\\..\\src\\common\\config\\locale\\en.js"
     ],
     "names": [],
     "mappings": "AAAA;;;kBAEe,E",
-    "file": "../../../../src/common/config/locale/en.js",
+    "file": "..\\..\\..\\..\\src\\common\\config\\locale\\en.js",
     "sourcesContent": [
-        "'use strict';\n\nexport default {\n  \n};"
+        "'use strict';\r\n\r\nexport default {\r\n  \r\n};"
     ]
 }

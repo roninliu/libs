@@ -21,23 +21,27 @@ var _base2 = _interopRequireDefault(_base);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _class = function (_Base) {
-  (0, _inherits3.default)(_class, _Base);
+	(0, _inherits3.default)(_class, _Base);
 
-  function _class() {
-    (0, _classCallCheck3.default)(this, _class);
-    return (0, _possibleConstructorReturn3.default)(this, _Base.apply(this, arguments));
-  }
+	function _class() {
+		(0, _classCallCheck3.default)(this, _class);
+		return (0, _possibleConstructorReturn3.default)(this, _Base.apply(this, arguments));
+	}
 
-  /**
-   * index action
-   * @return {Promise} []
-   */
-  _class.prototype.indexAction = function indexAction() {
-    //auto render template file index_index.html
-    return this.display();
-  };
+	/**
+  * index action
+  * @return {Promise} []
+  */
+	_class.prototype.indexAction = function indexAction() {
+		//auto render template file index_index.html
+		return this.display();
+	};
 
-  return _class;
+	_class.prototype.sitesAction = function sitesAction() {
+		this.success(1);
+	};
+
+	return _class;
 }(_base2.default);
 
 exports.default = _class;

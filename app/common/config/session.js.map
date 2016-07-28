@@ -1,12 +1,12 @@
 {
     "version": 3,
     "sources": [
-        "../../../src/common/config/session.js"
+        "..\\..\\..\\src\\common\\config\\session.js"
     ],
     "names": [],
     "mappings": "AAAA;;AAEA;;;;;kBAGe;AACb,QAAM,SADO;AAEb,QAAM,MAFO;AAGb,UAAQ,UAHK;AAIb,WAAS,KAAK,IAJD;AAKb,UAAQ,EAAE;AACR,YAAQ,EADF;AAEN,cAAU;AAFJ,GALK;AASb,WAAS;AACP,UAAM;AACJ,YAAM,MAAM,YAAN,GAAqB;AADvB;AADC;AATI,C",
-    "file": "../../../src/common/config/session.js",
+    "file": "..\\..\\..\\src\\common\\config\\session.js",
     "sourcesContent": [
-        "'use strict';\n\n/**\n * session configs\n */\nexport default {\n  name: 'thinkjs',\n  type: 'file',\n  secret: '~BC18K(A',\n  timeout: 24 * 3600,\n  cookie: { // cookie options\n    length: 32,\n    httponly: true\n  },\n  adapter: {\n    file: {\n      path: think.RUNTIME_PATH + '/session',\n    }\n  }\n};"
+        "'use strict';\r\n\r\n/**\r\n * session configs\r\n */\r\nexport default {\r\n  name: 'thinkjs',\r\n  type: 'file',\r\n  secret: '~BC18K(A',\r\n  timeout: 24 * 3600,\r\n  cookie: { // cookie options\r\n    length: 32,\r\n    httponly: true\r\n  },\r\n  adapter: {\r\n    file: {\r\n      path: think.RUNTIME_PATH + '/session',\r\n    }\r\n  }\r\n};"
     ]
 }

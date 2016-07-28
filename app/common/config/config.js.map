@@ -1,12 +1,12 @@
 {
     "version": 3,
     "sources": [
-        "../../../src/common/config/config.js"
+        "..\\..\\..\\src\\common\\config\\config.js"
     ],
     "names": [],
     "mappings": "AAAA;AACA;;;;;kBAGe;AACd;AACA,iBAAgB,MAFF;AAGd,OAAM;AAHQ,C",
-    "file": "../../../src/common/config/config.js",
+    "file": "..\\..\\..\\src\\common\\config\\config.js",
     "sourcesContent": [
-        "'use strict';\n/**\n * config\n */\nexport default {\n\t//key: value\n\tdefault_module: \"main\",\n\tport: 80,\n};"
+        "'use strict';\r\n/**\r\n * config\r\n */\r\nexport default {\r\n\t//key: value\r\n\tdefault_module: \"main\",\r\n\tport: 80,\r\n};"
     ]
 }

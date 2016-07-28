@@ -7,5 +7,16 @@
 <body>
 <script type="text/javascript" src="/static/src/utils/utils.js"></script>
 Demo
+<script type="text/javascript">
+Util.fetch({
+		url:"/main/index/sites",
+		data:{
+			sid:12
+		},
+		success:function(result){
+			console.log(result);
+		}
+	})
+</script>
 </body>
 </html>

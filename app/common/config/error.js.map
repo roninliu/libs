@@ -1,12 +1,12 @@
 {
     "version": 3,
     "sources": [
-        "../../../src/common/config/error.js"
+        "..\\..\\..\\src\\common\\config\\error.js"
     ],
     "names": [],
     "mappings": "AAAA;AACA;;;;;kBAGe;AACd;AACA,MAAK,MAFS,EAED;AACb,MAAK,KAHS,EAGF;AACZ,QAAO,IAJO,E",
-    "file": "../../../src/common/config/error.js",
+    "file": "..\\..\\..\\src\\common\\config\\error.js",
     "sourcesContent": [
-        "'use strict';\n/**\n * err config\n */\nexport default {\n\t//key: value\n\tkey: \"code\", // number\n\tmsg: \"msg\", //message\n\tvalue: 1000, //value\n};"
+        "'use strict';\r\n/**\r\n * err config\r\n */\r\nexport default {\r\n\t//key: value\r\n\tkey: \"code\", // number\r\n\tmsg: \"msg\", //message\r\n\tvalue: 1000, //value\r\n};"
     ]
 }

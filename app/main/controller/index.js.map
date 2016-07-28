@@ -1,12 +1,12 @@
 {
     "version": 3,
     "sources": [
-        "../../../src/main/controller/index.js"
+        "..\\..\\..\\src\\main\\controller\\index.js"
     ],
     "names": [],
-    "mappings": "AAAA;;;;;;;;;;;;;;;;AAEA;;;;;;;;;;;;;;AAGE;;;;mBAIA,W,0BAAa;AACX;AACA,WAAO,KAAK,OAAL,EAAP;AACD,G",
-    "file": "../../../src/main/controller/index.js",
+    "mappings": "AAAA;;;;;;;;;;;;;;;;AAEA;;;;;;;;;;;;;;AAGC;;;;kBAIA,W,0BAAc;AACb;AACA,SAAO,KAAK,OAAL,EAAP;AACA,E;;kBAED,W,0BAAc;AACb,OAAK,OAAL,CAAa,CAAb;AACA,E",
+    "file": "..\\..\\..\\src\\main\\controller\\index.js",
     "sourcesContent": [
-        "'use strict';\n\nimport Base from './base.js';\n\nexport default class extends Base {\n  /**\n   * index action\n   * @return {Promise} []\n   */\n  indexAction(){\n    //auto render template file index_index.html\n    return this.display();\n  }\n}"
+        "'use strict';\r\n\r\nimport Base from './base.js';\r\n\r\nexport default class extends Base {\r\n\t/**\r\n\t * index action\r\n\t * @return {Promise} []\r\n\t */\r\n\tindexAction() {\r\n\t\t//auto render template file index_index.html\r\n\t\treturn this.display();\r\n\t}\r\n\r\n\tsitesAction() {\r\n\t\tthis.success(1)\r\n\t}\r\n}"
     ]
 }
